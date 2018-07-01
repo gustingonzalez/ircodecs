@@ -153,17 +153,18 @@ En caso de requerir utilizar algún módulo en concreto y de que querer evitar l
 Este repositorio está basado en diversas lecturas:
 - C. D. Manning, P. Raghavan, H. Schütze. Introduction to Information Retrieval. Cambridge University Press, 2008.
 - M. Catena, C. MacDonald, and I. Ounis. On inverted index compression for search engine efficiency. Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 8416 LNCS, pp. 359–371, 2014.
-- J. Zhang, X. Long, y T. Suel. Performance of Compressed Inverted List Caching in Search Engines. Track Search - Corpus Charact. Search Perform., pp. 387–396,2008.
-- D. Lemire, L. Boytsov. Decoding billions of integers per second through vectorization. Software: Practice & Experience, 2013.
-- M. Zukowski, S. Heman, N. Nes y P. Boncz. Super-Scalar RAM-CPU Cache Compression. En ICDE, 2006.
-- G. Ottaviano, R. Venturini. Partitioned Elias-Fano Indexes. Proceedings of the 37th International ACM SIGIR Conference on Research & Development in Information Retrieval, 2014, pp. 273-282.
+- J. Zhang, X. Long, y T. Suel. Performance of Compressed Inverted List Caching in Search Engine. Proceedings of the 17th international conference on World Wide Web, WWW '08, pp. 387–396, 2008.
+- D. Lemire, L. Boytsov. Decoding billions of integers per second through vectorization. Software: Practice & Experience, Vol. 45 (1), pp. 1-29, 2015.
+- M. Zukowski, S. Heman, N. Nes y P. Boncz. Super-Scalar RAM-CPU Cache Compression. 22nd International Conference on Data Engineering (ICDE'06), pp. 59-59, 2006.
+- G. Ottaviano, R. Venturini. Partitioned Elias-Fano Indexes. Proceedings of the 37th International ACM SIGIR Conference on Research & Development in Information Retrieval, SIGIR ‘14, pp. 273-282, 2014.
 
 También se han utilizado (y se recomiendan) las siguientes implementaciones como referencia:
 - DocId set compression and set operation library - https://github.com/javasoze/kamikaze
 - JavaFastPFOR: A java integer compression library - https://github.com/lemire/JavaFastPFOR
-- Elias Fano: A simpl(istic) Java implementation of the Elias-Fano compression schema - https://github.com/catenamatteo/eliasfano 
+- Elias Fano: A simpl(istic) Java implementation of the Elias-Fano compression schema - https://github.com/catenamatteo/eliasfano
 - Partitioned Elias-Fano Indexes - https://github.com/ot/partitioned_elias_fano
-- Data Structures for Inverted Indexes (ds2i) -  https://github.com/ot/ds2i 
+- Data Structures for Inverted Indexes (ds2i) -  https://github.com/ot/ds2i
+- Terrier IR Platform - http://terrier.org
 
 # Requerimientos
 Python v2 o Python v3
